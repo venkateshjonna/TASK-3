@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple To Do List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="todo.mp4" type="video/mp4">
+      </video>
+    <div class="container">
+        <div id="newtask">
+            <input type="text" placeholder="Task to be done..">
+            <button id="push">Add</button>
+        </div>
+        <div id="tasks"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
